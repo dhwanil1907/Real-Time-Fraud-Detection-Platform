@@ -1,8 +1,12 @@
 # Data (too large for GitHub; download separately)
 data/raw/*.csv
+data/processed/
 
 # Outputs (regeneratable via `python main.py --step pipeline`)
 outputs/
+
+# Notebooks
+notebooks/*.ipynb
 
 # Python
 __pycache__/
