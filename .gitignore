@@ -1,1 +1,29 @@
-/data
+# Data (too large for GitHub; download separately)
+data/raw/*.csv
+
+# Outputs (regeneratable via `python main.py --step pipeline`)
+outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+.cursor/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
