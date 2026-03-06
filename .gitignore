@@ -6,7 +6,7 @@ data/processed/
 outputs/
 
 # Notebooks
-notebooks/*.ipynb
+notebooks/
 
 # Python
 __pycache__/
